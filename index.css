@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body{
+    color: white;
+     font-family: "DM Sans", sans-serif;
+}
+.conteiner{
+    width: 900px;
+    height: 550px;
+    position: relative;
+    left: 14%;
+    border: 1px solid rgb(114, 114, 114);
+    background-color: rgb(81, 166, 250);
+    border-radius: 5px;
+}
+.titre-stdudent{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(6, 37, 27);
+}
+.main{
+    width: 95%;
+    height: 80%;
+    background-color: rgb(6, 37, 27);
+    border-radius: 5px;
+    position: absolute;
+    top: 60px;
+    left: 23px;
+    display: flex;
+    padding-top: 40px;
+}
+form{
+    border: none;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+input{
+    width: 70%;
+    height: 25px;
+    margin-top: 30px;
+    border-radius: 0px;
+    outline: none;
+    border: 0px;
+    color: white;
+    background: none;
+    border-bottom: 2px solid rgb(6, 128, 89);
+}
+#btn{
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: rgb(3, 3, 83);
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+table{
+  
+    width: 45%;
+    height: 40px;
+    border-collapse: collapse;
+    margin-top: 52px;
+    margin-left: 5px;
+    
+}
+thead{
+    width: 100%;
+    background-color: rgb(81, 166, 250);;
+    color: rgb(6, 37, 27);
+    height: 24px;
+    
+}
+th{
+    border: 1px solid rgb(167, 165, 165);
+    height: 30px;
+}
+tbody{
+    width: 100%;
+    background-color: rgb(6, 37, 27);
+    height: 24px;
+    text-align: center;
+   
+   
+}
+td{
+   border: 1px solid rgb(6, 128, 89);
+   
+}
+.td-btn{
+    display: flex;
+    border: none;
+}
+a{
+    width: 50%;
+    height: 21px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;  
+}
+.edit-btn{
+    background-color: rgb(5, 5, 172);
+}
+.delet{
+    background-color: rgb(161, 4, 4);
+}
